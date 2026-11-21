@@ -1,7 +1,7 @@
 # Proyecto-web-asistido-por-inteligencia-artificial-
 Proyecto web que es asistido de manera local y en la nube por diferentes modelos de inteligencia artificial con el objetivo de construir modulos, encontrar y corregir errores y verificar el estatus del proyecto
 
-# Requisitos del sistema
+# Requisitos de Instalación
 1.Sistema oprativo windows, linux o macOS
 2.Memoria ram miníma de 16 GB
 3.Almacenamiento minimo de 250 GB
@@ -26,7 +26,7 @@ name: Taller IA ITSVA
 version: 1.0.0
 schema: v1
 models:
-  - name: Chat y edición (qwen2.5-coder:1.5b)
+-name: Chat y edición (qwen2.5-coder:1.5b)
     provider: ollama
     model: qwen2.5-coder:1.5b
     roles:
